@@ -147,13 +147,14 @@
 .v2-card-gradient {
   padding: 32px;
   border-radius: 20px;
-  color: white;
+  color: #0f1419;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 20px 60px rgba(44, 95, 141, 0.2), 0 0 1px rgba(0, 0, 0, 0.05);
+  background: white !important;
+  box-shadow: 0 20px 60px rgba(44, 95, 141, 0.12), 0 0 1px rgba(0, 0, 0, 0.05);
   transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   cursor: pointer;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(44, 95, 141, 0.08);
 }
 
 .v2-card-gradient::before {
@@ -183,7 +184,7 @@
   right: 24px;
   font-size: 56px;
   font-weight: 800;
-  color: rgba(255, 255, 255, 0.12);
+  color: rgba(44, 95, 141, 0.08);
   line-height: 1;
   letter-spacing: -0.03em;
 }
@@ -191,14 +192,14 @@
 .v2-card-icon {
   width: 64px;
   height: 64px;
-  background: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(10px);
+  background: linear-gradient(135deg, rgba(44, 95, 141, 0.1) 0%, rgba(44, 95, 141, 0.05) 100%);
   border-radius: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(44, 95, 141, 0.1);
+  color: #2C5F8D;
 }
 
 .v2-card-gradient h2 {
@@ -221,8 +222,9 @@
   padding: 8px 0;
   padding-left: 24px;
   position: relative;
-  opacity: 0.95;
+  opacity: 0.85;
   font-weight: 400;
+  color: #4a5568;
 }
 
 .v2-card-gradient li:before {
@@ -232,8 +234,9 @@
   top: 16px;
   width: 12px;
   height: 2px;
-  background: rgba(255, 255, 255, 0.6);
+  background: #2C5F8D;
   border-radius: 2px;
+  opacity: 0.4;
 }
 
 .v2-process-section {
